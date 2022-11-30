@@ -6,10 +6,7 @@ map:
 ## Button
 This is a button component!
 
-<demo src="./demo.vue"
-  title="Demo 演示"
-  desc="这是一个 Demo 渲染示例">
-</demo>
+<demo src="./demo/demo.vue" title="Demo block" desc="use demo"></demo>
 
 
-<API src="../button.vue" lang="en"></API>
+

@@ -6,6 +6,9 @@
   "types": "./dist/index.d.ts",
   "main": "./dist/ruabick-project.umd.cjs",
   "module": "./dist/ruabick-project.js",
+  "config":{
+    "port":3000
+  },
   "exports": {
     ".": {
       "import": "./dist/ruabick-project.js",
