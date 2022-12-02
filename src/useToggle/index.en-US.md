@@ -3,10 +3,12 @@ map:
   path: /useToggle
 ---
 
-## Button
-This is a button component!
+A boolean switcher with utility functions.
 
-<demo src="./demo/demo.vue" title="Demo block" desc="use demo"></demo>
+
+## useToggle
+
+<demo src="./demo/demo.vue" title="Demo block" desc="useToggle"></demo>
 
 
 

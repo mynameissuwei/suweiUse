@@ -1,25 +1,29 @@
-<script setup>
-import { ref } from 'vue';
-import MyButton from 'ruabick-project';
+<script setup lang="ts">
+import { useToggle } from '../index'
+import { ref } from 'vue'
 
-const count = ref(0);
-function onClick() {
-  count.value++;
-}
+
+const [value, toggle] = useToggle()
+
 </script>
 
 <template>
   <div>
-    <p>
-      <span class="">点击次数:</span>
-      <span>{{ count }}</span>
-    </p>
-    <MyButton @click="onClick">count++</MyButton>
+    <p>Value: {{ value ? 'ON' : 'OFF' }}</p>
+    <button @click="toggle()" class="block-display">
+      Toggle
+    </button>
+    <button @click="value = true" class="block-display">
+      Set ON
+    </button>
+    <button @click="value = false" class="block-display">
+      Set OFF
+    </button>
   </div>
 </template>
 
 <style>
-.text {
-  font-size: 14px;
+.block-display {
+  display: block;
 }
 </style>

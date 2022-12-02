@@ -1,13 +1,13 @@
 ---
 map:
   path: /useToggle
+realPath: src/useToggle/index.en-US.md
 ---
 
-具有实用功能的布尔切换器。
+A boolean switcher with utility functions.
+
 
 ## useToggle
-
-渲染效果如下
 
 <demo src="./demo/demo.vue" title="Demo block" desc="useToggle"></demo>
 
