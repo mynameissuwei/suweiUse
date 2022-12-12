@@ -6,8 +6,8 @@
   "types": "./dist/index.d.ts",
   "main": "./dist/ruabick-project.umd.cjs",
   "module": "./dist/ruabick-project.js",
-  "config":{
-    "port":3000
+  "config": {
+    "port": 3000
   },
   "exports": {
     ".": {
@@ -33,23 +33,28 @@
   "license": "MIT",
   "devDependencies": {
     "@ruabick/md-demo-plugins": "latest",
+    "@ruabick/vite-plugin-gen-api-doc": "latest",
     "@ruabick/vite-plugin-gen-temp": "latest",
     "@ruabick/vitepress-demo-block": "latest",
-    "@ruabick/vite-plugin-gen-api-doc": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
     "@vitejs/plugin-vue": "^3.0.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.20.0",
+    "eslint-define-config": "^1.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
     "gh-pages": "^4.0.0",
     "np": "^7.6.2",
     "prettier": "^2.7.1",
     "vite": "latest",
     "vite-plugin-dts": "^1.4.0",
     "vitepress": "latest",
-    "vue": "latest",
-    "@typescript-eslint/eslint-plugin": "^5.33.1",
-    "@typescript-eslint/parser": "^5.33.1",
-    "eslint-define-config": "^1.6.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0"
+    "vue": "latest"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "js-yaml": "^4.1.0",
+    "vue-demi": "^0.13.11"
   }
 }

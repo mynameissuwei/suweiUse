@@ -5,6 +5,7 @@ export const sidebar = {
       items: [
         // { text: 'Button', link: '/en/' },
         { text: 'useToggle', link: '/useToggle/' },
+        { text: 'useAsyncState', link: '/useAsyncState/' },
       ],
     },
   ],
@@ -14,6 +15,7 @@ export const sidebar = {
       items: [
         // { text: '按钮', link: '/' },
         { text: 'useToggle', link: '/useToggle/' },
+        { text: 'useAsyncState', link: '/useAsyncState/' },
       ],
     },
   ],

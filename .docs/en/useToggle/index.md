@@ -1,7 +1,7 @@
 ---
 map:
   path: /useToggle
-realPath: src/useToggle/index.en-US.md
+realPath: src/useAsyncState/index.en-US.md
 ---
 
 A boolean switcher with utility functions.

@@ -1,7 +1,7 @@
 ---
 map:
   path: /useToggle
-realPath: src/useToggle/index.zh-CN.md
+realPath: src/useAsyncState/index.zh-CN.md
 ---
 
 具有实用功能的布尔切换器。
